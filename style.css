@@ -11,9 +11,9 @@ body {
 }
 
 .headline {
-  /*width: 1440px;
+  width: 1440px;
   height: 916px;
-  top: 1px;*/
+  top: 1px;
   margin: 0 auto;
   background: #fff url(../images/header.png);
   border-bottom-left-radius: 80px;
@@ -21,8 +21,8 @@ body {
 }
 
 .head {
-  /*width: 920px;
-  height: 122px;*/
+  width: 920px;
+  height: 122px;
   font-family: "Poppins", sans-serif;
   font-size: 40px;
   font-weight: 700;
@@ -42,7 +42,7 @@ body {
   margin: 12px 24px;
   }
 
-  .connect {
+.connect {
   font-family: "Poppins", sans-serif;
   font-size: 16px;
   line-height: 24px;
@@ -52,3 +52,15 @@ body {
   margin-bottom: 12px;
   color: #7f8cff;
 }
+
+.social-media-icons {
+    display: flex;
+/*    height: 19.99px;
+    width: 19.96px;*/
+    gap: 15px;
+    margin-left: -15px;
+    width: 160px;
+    list-style-type: none;
+    animation: width-change 1s ease-in-out 0.5s 1;
+    color: #505f79;
+  }
