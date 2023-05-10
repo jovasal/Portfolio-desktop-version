@@ -40,7 +40,7 @@ body {
   vertical-align: top;
   color: #344563;
   margin: 12px 24px;
-  }
+}
 
 .connect {
   font-family: "Poppins", sans-serif;
@@ -54,13 +54,13 @@ body {
 }
 
 .social-media-icons {
-    display: flex;
-/*    height: 19.99px;
-    width: 19.96px;*/
-    gap: 15px;
-    margin-left: -15px;
-    width: 160px;
-    list-style-type: none;
-    animation: width-change 1s ease-in-out 0.5s 1;
-    color: #505f79;
+  display: flex;
+/*height: 19.99px;
+  width: 19.96px;*/
+  gap: 15px;
+  margin-left: -15px;
+  width: 160px;
+  list-style-type: none;
+  animation: width-change 1s ease-in-out 0.5s 1;
+  color: #505f79;
   }
