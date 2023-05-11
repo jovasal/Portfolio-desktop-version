@@ -10,6 +10,157 @@ body {
   overflow-x: hidden;
 }
 
+.heading {
+  display: flex;
+  width: 1440px;
+  height: 72px;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 36px 15px 24px;
+  box-sizing: border-box;
+    background: #fff url(../images/header.png);
+  margin: 0 auto;
+  }
+
+.conthead{
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  min-height: auto;
+}
+
+.conlogo{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  min-height: auto;
+  align-items: stretch;
+/*display: flex;
+border: 10px;
+height: auto;*/
+}
+
+#logo {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  transition: transform 0.4s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+.conthead {
+  display: flex;
+  flex-direction: row;
+}
+
+#portfolio {
+  width: 62px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #344563;
+  transition: transform 0.4s ease-in-out;
+}
+
+#portfolio:hover {
+  transform: scale(1.1);
+}
+
+#about {
+  width: 62px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #344563;
+  transition: transform 0.4s ease-in-out;
+}
+
+#about:hover {
+  transform: scale(1.1);
+}
+
+#contact {
+  width: 62px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 15px;
+  color: #344563;
+  transition: transform 0.4s ease-in-out;
+}
+
+#contact:hover {
+  transform: scale(1.1);
+}
+
+#logo {
+  width: 76px;
+  height: 20px;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 18px;
+  color: #6070ff;
+  transition: transform 0.4s ease-in-out;
+}
+
+#logo:hover {
+  transform: scale(1.1);
+}
+
+#mobile-nav {
+  background-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+#mobile-nav.active {
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: rgba(96, 112, 255, 0.9);
+}
+
+#menu {
+  display: block;
+  cursor: pointer;
+}
+
+#menu.active {
+  float: right;
+  margin-top: 20px;
+  margin-right: 35px;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: #6070ff;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+#nav {
+  display: none;
+}
+
+#link {
+  display: none;
+}
+
 .headline {
   width: 1440px;
   height: 916px;
@@ -61,4 +212,4 @@ body {
   list-style-type: none;
   animation: width-change 1s ease-in-out 0.5s 1;
   color: #505f79;
-}
+} 
