@@ -6,80 +6,24 @@ max-width: 100%;
 }
 
 .heading {
-  /*background-color: #f4f5f7;
-  height: 512.5rem;
-  overflow: hidden;
-  position: relative;*/
-  width: 100%;
-  /*display: flex;*/
+  display: flex;
+  flex-grow: initial;
   width: 1440px;
   height: 72px;
-  overflow: hidden;
-  position: relative;
-  /*justify-content: center;*/
- /* justify-content: space-between;*/
- /* align-items: center;*/
- /* padding: 50px 36px 15px 24px;*/
- /* box-sizing: border-box;*/
- /* background-color: #fff url(../images/header.png);*/
- /* margin: 0 auto;*/
+  justify-content: space-between;
+  background-color: #fff;
   }
 
-.conthead{
- /* display: flex;
-  align-items: center;
-  box-sizing: border-box;
-  overflow: hidden;
-  position: absolute;*/
-  justify-content: flex-start;
-  flex-direction: row;
-  min-height: auto;
-}
-
 .conlogo{
- /* align-items: center;
-  box-sizing: border-box;
-  display: flex;
-  height: 4rem;
-  left: 14.3rem;
-  overflow: hidden;
-  padding-left: 1.2rem;
-  position: absolute;
-  top: 1.6rem;
-  width: 115.5rem;*/
   display: flex;
   align-items: center;
   box-sizing: border-box;
   overflow: hidden;
   position: absolute;
-
-/*  display: flex;
-  justify-content: flex-end;
-  flex-direction: row;
-  min-height: auto;
-  align-items: stretch;*/
-
-  /*display: flex;
-border: 10px;
-height: auto;*/
-}
+  height: auto;
+  }
 
 #logo {
-  /*align-items: center;
-  color: #6070ff;
-  display: flex;
-  flex-shrink: 0;
-  font-family: Poppins, 'Source Sans Pro';
-  font-size: 1.8rem;
-  font-weight: 700;
-  height: calc(100% - 2rem);
-  justify-content: center;
-  line-height: 1.1111111111;
-  margin: 1rem 80.8rem 1rem 0rem;
-  overflow: hidden;
-  position: relative;
-  white-space: nowrap;
-  width: 7.6rem;*/
   width: 76px;
   height: 20px;
   text-decoration: none;
@@ -94,15 +38,11 @@ height: auto;*/
 }
 
 .conthead {
-  /*align-items: center;
-  box-sizing: border-box;
   display: flex;
-  flex-shrink: 0;
-  height: 100%;
-  overflow: hidden;
-  padding: 1rem 1.2rem 1rem 1.25rem;
-  position: relative;*/
-  display: flex;
+  align-items: center;
+  justify-content: space-between|**************************************************************************************************************************99966663q3q33333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333333qqq  69*;
+  flex-direction: row;
+  min-height: auto;
   flex-direction: row;
 }
 
@@ -208,6 +148,9 @@ height: auto;*/
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
+  
   width: 1440px;
   height: 916px;
   top: 1px;
