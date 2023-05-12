@@ -200,7 +200,7 @@ body {
   list-style-type: none;
   animation: width-change 1s ease-in-out 0.5s 1;
   color: #505f79;
-} 
+}
 
 .grid-container {
   display: flex;
@@ -213,10 +213,10 @@ body {
   margin: 0 auto;
   background-color: #e5e5e5;
   gap: 2px;
-  margin-top: -0px;
-  margin-bottom: 0px;
-  padding-top: 0px;
-  padding-bottom: 0px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .works-card-tonic {
@@ -225,7 +225,6 @@ body {
   flex-direction: row;
   width: 1156px;
   height: 496px;
-  border-radius: 24px;
   margin: 0 auto;
   background-color: #fff;
   border: 1px solid #dfe1e6;
@@ -235,14 +234,14 @@ body {
   right: 142px;
   top: 1059px;
   bottom: 3570px;
-  list-style: none
+  list-style: none;
 }
 
 .card-tonic {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  list-style: none
+  list-style: none;
 }
 
 .card-tonic2 {
@@ -252,7 +251,6 @@ body {
   border-radius: 8px;
   top: 24px;
   left: 24px;
-  border-radius: 8px;
 }
 
 .card-tonic1 {
@@ -285,7 +283,7 @@ body {
   right: 48px;
   top: 48px;
   bottom: 402px;
-  list-style: none
+  list-style: none;
 }
 
 .card-tonic3 {
@@ -317,7 +315,7 @@ body {
   list-style: none;
 }
 
-.wordcanopi {
+.wordback {
   flex: none;
   order: 0;
   flex-grow: 0;
