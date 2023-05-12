@@ -292,8 +292,8 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
-  width: 588px;
-  height: 448px;
+  width: 75px;
+  height: 24px;
   border-radius: 8px;
   top: 114px;
   right: 240px;
@@ -357,8 +357,13 @@ body {
   flex: none;
   order: 1;
   flex-grow: 0;
+  position: absolute;
   width: 496px;
   height: 50px;
+  border-radius: 8px;
+  top: 170px;
+  left: 614px;
+  bottom: 276px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -366,10 +371,20 @@ body {
   line-height: 24px;
   color: #344563;
   list-style: none;
-  top: 170px;
-  left: 614px;
-  right: 46px;
-  bottom: 276px;
+}
+
+.card-tonic4 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  width: 75px;
+  height: 24px;
+  border-radius: 8px;
+  top: 248px;
+  right: 350px;
+  left: 625px;
 }
 
 /*multip*/
