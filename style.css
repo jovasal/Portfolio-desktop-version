@@ -292,6 +292,8 @@ body {
   align-items: flex-start;
   justify-content: flex-start;
   position: absolute;
+  padding: 0;
+  gap: 12px;
   width: 75px;
   height: 24px;
   border-radius: 8px;
@@ -360,7 +362,6 @@ body {
   position: absolute;
   width: 496px;
   height: 50px;
-  border-radius: 8px;
   top: 170px;
   left: 614px;
   bottom: 276px;
@@ -376,10 +377,12 @@ body {
 .card-tonic4 {
   display: flex;
   flex-direction: row;
-  align-items: normal;
+  align-items: center;
   justify-content: space-between;
+  padding: 0;
+  margin: 5px;
   position: absolute;
-  width: 75px;
+  width: 203px;
   height: 24px;
   border-radius: 8px;
   top: 248px;
@@ -403,12 +406,9 @@ body {
   right: 489px;
   top: 244;
   bottom: 228px;
-  list-style: none;
   color: #6070ff;
   font-family: Poppins, 'Source Sans Pro';
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -432,12 +432,10 @@ body {
   right: 436px;
   top: 244;
   bottom: 228px;
-  list-style: none;
+/*  list-style: none;*/
   color: #6070ff;
   font-family: Poppins, 'Source Sans Pro';
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -459,14 +457,11 @@ body {
   flex-grow: 0;
   left: 728px;
   right: 339px;
-  top: 244;
+  top: 244px;
   bottom: 228px;
-  list-style: none;
   color: #6070ff;
   font-family: Poppins, 'Source Sans Pro';
-  font-weight: 500;
-  font-size: 12px;
-  line-height: 16px;
+  font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -480,29 +475,38 @@ body {
   align-items: normal;
   justify-content: space-between;
   position: absolute;
-  width: 102px;
-  height: 24px;
   top: 320px;
   left: 626px;
   right: 428px;
   bottom: 152px;
+  width: 496px;
+  height: 153px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;*/
 }
 
 .go-buttontonic {
-  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+/*  box-sizing: border-box;*/
   align-items: center;
-  width: 204px;
+  padding: 12px;
+  gap: 10px;
+  position: absolute;
+  width: 126px;
   height: 48px;
+  top: 16px;
   letter-spacing: 0.03em;
-  border: solid #396df2;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
   font-family: Poppins, 'Source Sans Pro';
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
+  text-align: center;
   line-height: 24px;
-  display: flex;
   color: #396df2;
   transition: transform 0.4s ease-in-out;
 }
