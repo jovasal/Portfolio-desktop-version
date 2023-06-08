@@ -1635,3 +1635,211 @@ body {
   top: 142px;
 }
 
+.languages {
+  position: absolute;
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+}
+
+.disable1 {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 8px;
+position: absolute;
+width: 40px;
+height: 40px;
+right: 168px;
+top: 158px;
+}
+
+.lenguagelist {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 414px;
+  height: 144px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  top: 214px;
+  right: 412px;
+  position: absolute;
+}
+
+.lenguagelist1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 414px;
+  height: 144px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  top: 214px;
+  right: 412px;
+  position: absolute;
+}
+
+.abouljs {
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.ellipse {
+  position: absolute;
+  width: 48px;
+  height: 48px;
+  left: 24px;
+  top: 36px;
+  background: url("images/Ellipse.png");
+  border: 1px solid #fff;
+  }
+  
+  .lanjav {
+    position: absolute;
+    width: 98px;
+    height: 24px;
+    left: 12px;
+    top: 76px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    color: #253858;
+  }
+
+.aboulht {
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  list-style: none;
+}
+
+.elihtml {
+ /* position: absolute;*/
+  width: 48px;
+  height: 48px;
+  left: 24px;
+  top: 36px;
+  background: url("images/Elihtml.png");
+  border: 1px solid #fff;
+}
+  
+.lanhtml {
+/*  position: absolute;*/
+  width: 98px;
+  height: 24px;
+  left: 24px;
+  top: 76px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+
+.aboulcss {
+  width: 122px;
+  height: 120px;
+  background: #f7f7f9;
+  border-radius: 8px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  list-style: none;  
+}
+
+.elicss {
+  /* position: absolute;*/
+  width: 48px;
+  height: 48px;
+  left: 24px;
+  top: 36px;
+  background: url("images/Elicss.png");
+  border: 1px solid #fff;
+}
+   
+.lancss {
+  /*position: absolute;*/
+  width: 98px;
+  height: 24px;
+  left: 24px;
+  top: 76px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
+.framewr {
+  width: 684px;
+  height: 72px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  left: 614px;
+  top: 358px;
+}
+.wordframework {
+  position: absolute;
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563;
+}
+
+.buttonche1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  background: url("images/Chevron.png");
+}
