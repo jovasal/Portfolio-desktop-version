@@ -1564,15 +1564,21 @@ body {
   color: #7f8cff;
 }
 
-.social-media-icons {
- display: flex;
- flex-direction: row;
- align-items: center;
- padding: 0;
- width: 200;
- height: 40;
- flex: none;
- order: 1;
+.social-mediaicons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  width: 200;
+  height: 40;
+  flex: none;
+  order: 1;
+  gap: 15px;
+  margin-left: -15px;
+  list-style-type: none;
+  animation: width-change 1s ease-in-out 0.5s 1;
+  color: #505f79;
+  left: 154px;
 }
 
 .buttonab {
@@ -1616,3 +1622,16 @@ body {
   background-color: rgb(57, 109, 242);
   color: rgb(223, 225, 230);
 }
+
+.skilllist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  position: absolute;
+  width: 684px;
+  height: 360px;
+  left: 614px;
+  top: 142px;
+}
+
