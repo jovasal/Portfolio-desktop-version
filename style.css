@@ -407,7 +407,7 @@ body {
   top: 244;
   bottom: 228px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -433,7 +433,7 @@ body {
   top: 244;
   bottom: 228px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -459,7 +459,7 @@ body {
   top: 244px;
   bottom: 228px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -499,7 +499,7 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -514,8 +514,6 @@ body {
   background-color: rgb(57, 109, 242);
   color: rgb(223, 225, 230);
 }
-
-/*multip*/
 
 .work-card-multip {
   box-sizing: border-box;
@@ -697,7 +695,7 @@ body {
   bottom: 208px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -724,7 +722,7 @@ body {
   bottom: 208px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -751,7 +749,7 @@ body {
   bottom: 208px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-weight: 500;
   font-size: 12px;
@@ -778,7 +776,7 @@ body {
   bottom: 208px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -809,13 +807,12 @@ body {
   border: solid #396df2;
   border-radius: 8px;
   background-color: #fff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   display: flex;
-  align-items: center;
   text-align: center;
   color: #396df2;
   transition: transform 0.4s ease-in-out;
@@ -826,8 +823,6 @@ body {
   background-color: rgb(57, 109, 242);
   color: rgb(223, 225, 230);
 }
-
-/*facebook*/
 
 .work-card-facebook360 {
   box-sizing: border-box;
@@ -862,11 +857,6 @@ body {
   top: 24px;
   left: 24px;
 }
-
-
-
-
-
 
 .card-face1 {
   display: flex;
@@ -976,7 +966,6 @@ body {
   justify-content: space-between;
   padding: 0;
   gap: 8px;
-/*  margin: 5px;*/
   position: absolute;
   width: 316px;
   height: 24px;
@@ -1002,7 +991,7 @@ body {
   top: 264;
   bottom: 208px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1028,7 +1017,7 @@ body {
   top: 264;
   bottom: 208px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1054,7 +1043,7 @@ body {
   top: 264px;
   bottom: 208px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1080,7 +1069,7 @@ body {
   top: 264px;
   bottom: 208px;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1119,10 +1108,10 @@ body {
   left: 0;
   letter-spacing: 0.03em;
   background: #4053fc;
-  box-shadow: 0px 8px 16px;
+  box-shadow: 0 8px 16px;
   border-radius: 8px;
   background-color: #4053fc;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -1145,8 +1134,6 @@ body {
   left: 376px;
   top: 53.05px;
 }
-
-/*uber*/
 
 .work-card-ubernav {
   box-sizing: border-box;
@@ -1335,7 +1322,7 @@ body {
   bottom: 225px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1362,7 +1349,7 @@ body {
   bottom: 208px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1389,7 +1376,7 @@ body {
   bottom: 225px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-weight: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1416,7 +1403,7 @@ body {
   bottom: 225px;
   list-style: none;
   color: #6070ff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -1450,16 +1437,14 @@ body {
   border: 1px solid #6070ff;
   border-radius: 8px;
   background-color: #fff;
-  font-family: Poppins, 'Source Sans Pro';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   display: flex;
   flex-direction: row;
-  align-items: center;
   text-align: center;
-  letter-spacing: 0.03em;
   color: #396df2;
   transition: transform 0.4s ease-in-out;
 }
