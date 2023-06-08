@@ -209,7 +209,7 @@ body {
   justify-content: center;
   align-items: center;
   width: 1450px;
-  height: 5000px;
+  height: 2600px;
   margin: 0 auto;
   background-color: #e5e5e5;
   gap: 2px;
@@ -1454,3 +1454,125 @@ body {
   background-color: rgb(57, 109, 242);
   color: rgb(223, 225, 230);
 }
+
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1440px;
+  height: 924px;
+  margin: auto;
+  padding: 0;
+  background: #fff;
+  border-top-right-radius: 80px;
+  position: relative;
+}
+
+.about-container {
+  display: flex;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  justify-content: center;
+  align-items: center;
+  width: 1440px;
+  height: 924px;
+  margin: 0 auto;
+  background-color: #fff;
+  gap: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.leftside {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 24px;
+  position: absolute;
+  width: 447px;
+  height: 311px;
+  left: 143px;
+  top: 166px;
+}
+
+.aboutmy {
+  display: flex;
+  align-items: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+  top: 166px;
+  left: 143px;
+}
+
+.contentab {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  width: 447px;
+  height: 1021px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  top: 211px;
+  left: 143px; 
+}
+
+.conn {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  gap: 16px;
+  width: 200px;
+  height: 80px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
+
+.connect1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  gap: 8px;
+  width: 117px;
+  height: 24px;
+  flex: none;
+  flex-grow: 0;
+  order: 0;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+/*  left: 143px;
+  top: 325px;
+  right: 1180px;
+  bottom: 575px;
+  position: absolute;*/
+}
+/*
+.social-media-icons {
+  display: flex;
+  gap: 15px;
+  margin-left: -15px;
+  width: 160px;
+  list-style-type: none;
+  animation: width-change 1s ease-in-out 0.5s 1;
+  color: #505f79;
+}*/
