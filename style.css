@@ -1519,7 +1519,7 @@ body {
   order: 1;
   flex-grow: 0;
   width: 447px;
-  height: 1021px;
+  height: 102px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -1527,20 +1527,22 @@ body {
   line-height: 24px;
   color: #344563;
   top: 211px;
-  left: 143px; 
+  left: 143px;
+  right: 850px;
+  bottom: 611px;
 }
 
-.conn {
+.socialmedia {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0;
+  padding: 0px;
   gap: 16px;
-  width: 200px;
-  height: 80px;
   flex: none;
   order: 2;
   flex-grow: 0;
+  width: 200px;
+  height: 80px;
 }
 
 .connect1 {
@@ -1552,27 +1554,65 @@ body {
   width: 117px;
   height: 24px;
   flex: none;
-  flex-grow: 0;
   order: 0;
-  font-family: "Poppins", sans-serif;
+  flex-grow: 0;
+  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
-/*  left: 143px;
-  top: 325px;
-  right: 1180px;
-  bottom: 575px;
-  position: absolute;*/
 }
-/*
+
 .social-media-icons {
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ padding: 0;
+ width: 200;
+ height: 40;
+ flex: none;
+ order: 1;
+}
+
+.buttonab {
   display: flex;
-  gap: 15px;
-  margin-left: -15px;
-  width: 160px;
-  list-style-type: none;
-  animation: width-change 1s ease-in-out 0.5s 1;
-  color: #505f79;
-}*/
+  flex-direction: row;
+  align-items: start;
+  padding: 12px;
+  gap: 10px;
+  width: 182px;
+  height: 48px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  left: 143px;
+  top: 429px;
+}
+
+.go-buttonab {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  width: 182px;
+  height: 48px;
+  border: 1px solid #6070ff;
+  border-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #396df2;
+  transition: transform 0.4s ease-in-out;
+}
+
+.go-buttonab:hover {
+  transform: scale(1.1);
+  background-color: rgb(57, 109, 242);
+  color: rgb(223, 225, 230);
+}
