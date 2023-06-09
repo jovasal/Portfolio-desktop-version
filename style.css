@@ -1693,7 +1693,6 @@ body {
   top: 214px;
   right: 412px;
   list-style: none;
-  top: 220px;
   margin-top: 150px;
 }
 
@@ -1887,9 +1886,8 @@ body {
   line-height: 24px;
   display: flex;
   align-items: center;
-  color: #344563; 
+  color: #344563;
 }
-/*FORM*/
 
 #consection {
   display: flex;
