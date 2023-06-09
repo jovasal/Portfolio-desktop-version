@@ -1569,13 +1569,12 @@ body {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0;
   width: 200;
   height: 40;
   flex: none;
   order: 1;
   gap: 15px;
-  margin-left: -15px;
+  margin-left: -20px;
   list-style-type: none;
   animation: width-change 1s ease-in-out 0.5s 1;
   color: #505f79;
@@ -1627,13 +1626,28 @@ body {
 .skilllist {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding: 0;
+  align-items: flex-start;
+  padding: 10;
+  gap: 24px;
   position: absolute;
   width: 684px;
-  height: 360px;
+  height: 500px;
   left: 614px;
   top: 142px;
+}
+
+.firstrow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 10px;
+  gap: 10px;
+  position: absolute;
+  width: 684px;
+  height: 72px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
 }
 
 .languages {
@@ -1650,6 +1664,7 @@ body {
   display: flex;
   align-items: center;
   color: #344563;
+  margin-top: 50px;
 }
 
 .disable1 {
@@ -1661,7 +1676,7 @@ body {
   width: 40px;
   height: 40px;
   right: 168px;
-  top: 158px;
+  margin-top: 60px;
 }
 
 .lenguagelist {
@@ -1673,11 +1688,13 @@ body {
   width: 414px;
   height: 144px;
   flex: none;
-  order: 1;
+  order: 2;
   flex-grow: 0;
   top: 214px;
   right: 412px;
-  position: absolute;
+  list-style: none;
+  top: 220px;
+  margin-top: 150px;
 }
 
 .lenguagelist1 {
@@ -1708,7 +1725,6 @@ body {
 }
 
 .ellipse {
-  position: absolute;
   width: 48px;
   height: 48px;
   left: 24px;
@@ -1718,12 +1734,11 @@ body {
 }
 
 .lanjav {
-  position: absolute;
   width: 98px;
   height: 24px;
   left: 12px;
   top: 76px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -1731,6 +1746,7 @@ body {
   display: flex;
   align-items: center;
   color: #253858;
+  justify-content: center;
 }
 
 .aboulht {
@@ -1766,6 +1782,7 @@ body {
   display: flex;
   align-items: center;
   color: #253858;
+  justify-content: center;
 }
 
 .aboulcss {
@@ -1801,20 +1818,33 @@ body {
   display: flex;
   align-items: center;
   color: #253858;
+  justify-content: center;
 }
 
-.framewr {
+.frm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px;
+  gap: 12px;
+  width: 684px;
+  height: 144px;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  list-style: none;
+  margin-top: 1px;
+}
+
+.wframe {
   width: 684px;
   height: 72px;
   flex: none;
   order: 1;
   flex-grow: 0;
-  left: 614px;
-  top: 358px;
 }
 
-.wordframework {
-  position: absolute;
+.wgramew {
   height: 24px;
   left: 24px;
   right: 78px;
@@ -1829,21 +1859,36 @@ body {
   color: #344563;
 }
 
-.buttonche1 {
-  display: flex;
-  flex-direction: row;
-  align-items: flex-start;
-  padding: 8px;
-  position: absolute;
-  width: 40px;
-  height: 40px;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  background: url("images/Chevron.png");
+.sepa {
+  height: 1px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #def1e6 url("images/Separator\ Bottom.png");
 }
 
+.wskills {
+  width: 684px;
+  height: 72px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+}
 
+.wskillsw {
+  height: 24px;
+  left: 24px;
+  right: 78px;
+  top: calc(50% - 24px / 2);
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #344563; 
+}
 /*FORM*/
 
 #consection {
