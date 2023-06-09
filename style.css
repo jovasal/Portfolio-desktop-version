@@ -1537,7 +1537,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
+  padding: 0;
   gap: 16px;
   flex: none;
   order: 2;
@@ -1557,7 +1557,7 @@ body {
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -1642,7 +1642,7 @@ body {
   left: 24px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1653,15 +1653,15 @@ body {
 }
 
 .disable1 {
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 8px;
-position: absolute;
-width: 40px;
-height: 40px;
-right: 168px;
-top: 158px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 8px;
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 168px;
+  top: 158px;
 }
 
 .lenguagelist {
@@ -1715,23 +1715,23 @@ top: 158px;
   top: 36px;
   background: url("images/Ellipse.png");
   border: 1px solid #fff;
-  }
-  
-  .lanjav {
-    position: absolute;
-    width: 98px;
-    height: 24px;
-    left: 12px;
-    top: 76px;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #253858;
-  }
+}
+
+.lanjav {
+  position: absolute;
+  width: 98px;
+  height: 24px;
+  left: 12px;
+  top: 76px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: #253858;
+}
 
 .aboulht {
   width: 122px;
@@ -1745,7 +1745,6 @@ top: 158px;
 }
 
 .elihtml {
- /* position: absolute;*/
   width: 48px;
   height: 48px;
   left: 24px;
@@ -1753,14 +1752,13 @@ top: 158px;
   background: url("images/Elihtml.png");
   border: 1px solid #fff;
 }
-  
+
 .lanhtml {
-/*  position: absolute;*/
   width: 98px;
   height: 24px;
   left: 24px;
   top: 76px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -1778,11 +1776,10 @@ top: 158px;
   flex: none;
   order: 2;
   flex-grow: 0;
-  list-style: none;  
+  list-style: none;
 }
 
 .elicss {
-  /* position: absolute;*/
   width: 48px;
   height: 48px;
   left: 24px;
@@ -1790,14 +1787,13 @@ top: 158px;
   background: url("images/Elicss.png");
   border: 1px solid #fff;
 }
-   
+
 .lancss {
-  /*position: absolute;*/
   width: 98px;
   height: 24px;
   left: 24px;
   top: 76px;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -1806,6 +1802,7 @@ top: 158px;
   align-items: center;
   color: #253858;
 }
+
 .framewr {
   width: 684px;
   height: 72px;
@@ -1815,13 +1812,14 @@ top: 158px;
   left: 614px;
   top: 358px;
 }
+
 .wordframework {
   position: absolute;
   height: 24px;
   left: 24px;
   right: 78px;
   top: calc(50% - 24px / 2);
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -1861,7 +1859,6 @@ top: 158px;
   background-position: center;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-
 }
 
 .contain {
@@ -1892,7 +1889,7 @@ top: 158px;
 }
 
 .contact h1 {
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -1913,7 +1910,7 @@ top: 158px;
 }
 
 .contact p {
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -1934,7 +1931,7 @@ top: 158px;
   padding: 0;
   gap: 27px;
   margin-top: 12px;
-  margin-left: 0px;
+  margin-left: 0;
   list-style: none;
   width: 447px;
   height: 395px;
@@ -1960,7 +1957,7 @@ top: 158px;
   right: 38px;
   top: calc(50% - 18px / 2);
   color: #172b4d;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -1968,7 +1965,6 @@ top: 158px;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-style: normal;
   list-style: none;
 }
 
@@ -2005,14 +2001,13 @@ top: 158px;
   width: 142px;
   height: 48px;
   justify-content: center;
-  font-family: 'Poppins';
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   list-style: none;
   border-radius: 8px;
-  justify-content: center;
 }
 
 .form-group .btn-input:hover {
@@ -2035,4 +2030,3 @@ top: 158px;
   letter-spacing: 0.03em;
   list-style: none;
 }
-
