@@ -7,9 +7,9 @@ body {
 
 .heading {
   display: flex;
-  flex-grow: column;
-  width: 1450px;
-  height: 72px;
+  flex-direction: column;
+  width: 100%;
+  height: 100px;
   left: 0;
   top: 0;
   margin: auto;
@@ -22,18 +22,19 @@ body {
   align-items: center;
   box-sizing: border-box;
   overflow: hidden;
-  position: absolute;
   height: auto;
 }
 
 #logo {
-  width: 76px;
-  height: 20px;
+  width: 100px;
+  height: 100px;
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   color: #6070ff;
   transition: transform 0.4s ease-in-out;
+  margin-left: 155px;
+  margin-top: 26px;
 }
 
 #logo:hover {
@@ -43,9 +44,11 @@ body {
 .conthead {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end
   flex-direction: row;
   min-height: auto;
+  margin-top: 15px;
+  margin-right: 143px;
 }
 
 #portfolio {
@@ -90,48 +93,12 @@ body {
   transform: scale(1.1);
 }
 
-#mobile-nav {
-  background-color: transparent;
-  transition: all 0.3s ease-in-out;
-}
-
-#mobile-nav.active {
-  display: block;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: 1;
-  background-color: rgba(96, 112, 255, 0.9);
-}
 
 #menu {
-  display: block;
-  cursor: pointer;
-}
-
-#menu.active {
-  float: right;
-  margin-top: 20px;
-  margin-right: 35px;
-}
-
-.bar {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px auto;
-  background-color: #6070ff;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
-}
-
-#nav {
   display: none;
 }
 
-#link {
+.bar {
   display: none;
 }
 
@@ -139,14 +106,15 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 1440px;
+  width: 100%;
   height: 916px;
   top: 1px;
   left: 34.6px;
-  margin: 0 auto;
+  margin: auto;
   background: #fff url(../images/Headerbg.png);
   border-bottom-left-radius: 80px;
-  position: relative;
+  background-repeat: no-repeat;
+  order: 1;
 }
 
 .head {
@@ -2073,7 +2041,39 @@ body {
   letter-spacing: 0.03em;
   list-style: none;
 }
+#menu {
+  display: none;
+}
 
-@media screen and (max-width: 768px) {
+.bar {
+  display: none;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .conthead {
+    display: none;
+  }
+  
+  #menu {
+    display: block;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 35px;
+  }
+  
+  #menu.active {
+    float: right;
+   
+  }
+  
+  .bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    background-color: #6070ff;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
 
 }
